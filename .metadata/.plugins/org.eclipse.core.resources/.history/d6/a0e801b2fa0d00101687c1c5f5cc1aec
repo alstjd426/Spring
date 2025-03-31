@@ -1,0 +1,6 @@
+package com.Lect.week03;
+
+@Configuration
+public class AppConfig {
+
+}
