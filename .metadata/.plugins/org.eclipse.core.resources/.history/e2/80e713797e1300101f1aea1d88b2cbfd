@@ -1,0 +1,9 @@
+package com.Lect.week03;
+
+public class LombokSerivice {
+	private final SmsSender sms;
+	private final int sum;
+
+	private String msg;
+	private workUnit unit;
+}

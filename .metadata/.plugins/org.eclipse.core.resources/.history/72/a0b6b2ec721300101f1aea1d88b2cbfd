@@ -1,0 +1,10 @@
+package com.Lect.week03;
+
+import org.springframework.stereotype.Controller;
+import java.util.ArrayList;
+
+
+@Controller
+public class DIController {
+
+}

@@ -9,7 +9,10 @@
 <body>
 	<h3>力格</h3>
 	<ul>
-		<li><a href="createBean">后 按眉 积己 抗力</a>
+		<li><a href="createBean">后 按眉 积己 抗力</a></li>
+		<li><a href="annotationDI">绢畴抛捞记 DI 按眉 抗力</a></li>
+		<li><a href="lombok">lombok DI 按眉 抗力</a></li>
+		<li><a href="xmlDI">xml DI 按眉 抗力</a></li>
 	</ul>
 </body>
 </html>
