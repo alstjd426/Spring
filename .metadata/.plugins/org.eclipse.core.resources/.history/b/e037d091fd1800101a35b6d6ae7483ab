@@ -1,0 +1,10 @@
+package com.Lect.week03;
+import org.springframework.context.annotation.ImportResource;
+import org.springframework.stereotype.Controller;
+
+
+@Controller
+@ImportResource("classpath:static/xml/Ex3.xml")
+public class CollectionDIController {
+
+}

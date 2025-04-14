@@ -1,0 +1,34 @@
+package com.Lect.week04;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+
+@Configuration
+public class BeanScopeConfig {
+	@Bean(name = "scopeBean()")
+	public SmsSender singletonBean() {
+		return new Sms Sender();
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

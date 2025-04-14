@@ -13,6 +13,10 @@
 		<li><a href="annotationDI">어노테이션 DI 객체 예제</a></li>
 		<li><a href="lombok">lombok DI 객체 예제</a></li>
 		<li><a href="xmlDI">xml DI 객체 예제</a></li>
+		<li><a href="autoDI">auto DI 객체 예제</a></li>
+		<li><a href="commonDI">common DI 객체 예제</a></li>
+		<li><a href="list">list 컬렉션 주입 예제</a></li>
+		<li><a href="map">map 컬렉션 주입 예제</a></li>
 	</ul>
 </body>
 </html>

@@ -1,0 +1,9 @@
+package com.Lect.week03;
+import java.util.List;
+
+@Getter
+@Setter
+public class AnimaService {
+	private List<Animal> animals;
+	private Map<String, Animal> animalMap;
+}

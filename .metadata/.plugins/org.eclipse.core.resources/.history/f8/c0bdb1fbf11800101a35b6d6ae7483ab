@@ -1,0 +1,18 @@
+package com.Lect.week03;
+
+public interface Animal {
+	String sound();
+}
+@Component
+class Dog implements Animal {
+	public String sound() {
+		return "Woof";
+	}
+}
+@Component
+@Primary
+class Cat implements Animal {
+	public String sound() {
+		return "Meow";
+	}
+}

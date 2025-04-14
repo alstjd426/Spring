@@ -1,0 +1,11 @@
+package com.Lect.week04;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.context.WebApplicationContext;
+
+@Controller
+public class BeanScopeController {
+
+	@Autowired
+	private WebApplicationContext context;
+}
