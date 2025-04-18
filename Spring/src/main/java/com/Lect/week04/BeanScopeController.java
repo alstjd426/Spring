@@ -25,4 +25,31 @@ public class BeanScopeController {
 		mav.setViewName("week04/scopeBeanView");
 		return mav;
 	}
+	
+	@ResponseBody
+	@GetMapping("/post&pre")
+	public String customMethod () {
+		AnnotationConfigApplicationContext context = 
+				new AnnotationConfigApplicationContext(InitDestroyUnit.class);
+		System.out.println("===============");
+		context.close();
+		return "Console 메시지를 확인하세요.";
+	}
+	
+	@GetMapping("/awareInterfaceEx")
+	public ModelAndView awareInterfaceEx(ModelAndView mav) {
+		AwareInterfaceImp awareInterfaceImp = 
+				(AwareInterfaceImp)context.getBean("awareInterfaceImp");
+		String [] beanName = awareInterfaceImp.getContext()
+	}
+	@GetMapping("/externalConfigEx")
+	public ModelAndView externalConfigEx(ModelAndView mav) {
+		externalConfigComponent externalConfigComponent = 
+				(ExternalConfigComponent)context.getBean("externalConfigComponent");
+
+		mav.addObject("obj", externalConfigComponent);
+		mav.setViewName("week04/externalConfigView");
+		
+		return mav;
+	}
 }
