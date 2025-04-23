@@ -20,7 +20,12 @@
 	</ul>
 	<h3>4주차</h3>
 	<ul>
-		<li></li>
+		<li><a href="scopeBean"> 빈 범위 설정 예제</a></li>		
+		<li><a href="useDifferentScope"> 서로 다른 범위 빈 사용</a></li>
+		<li><a href="objectFactoryBeanTest">ObjectFactoryBean 사용</a></li>
+		<li><a href="postpre"> 커스텀메소드 사용</a></li>
+		<li><a href="awareInterfaceEx">Aware 인터페이스 사용</a></li>
+		<li><a href="externalConfigEx">외부 설정 파일 사용</a></li>
 	</ul>
 </body>
 </html>
